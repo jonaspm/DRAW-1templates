@@ -1,0 +1,24 @@
+<h1>
+    <%- name.first_name %>
+     <%- name.last_name %>
+</h1>
+    
+<%- numero1 %> +
+<%- numero2 %> =
+<%- numero1 + numero2 %>
+<% if (numero1 > numero2) { %>
+    <p>
+        numero1 es mayor que numero2
+    </p>
+<% } else {%>
+    <p>
+        numero2 es mayor que numero1
+    </p>
+<% } %>
+<ul>
+    <% for(pais of paises) { %>
+        <li>
+            <%- pais %>
+        </li>
+    <% } %>
+</ul>
